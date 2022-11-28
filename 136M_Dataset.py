@@ -4,6 +4,7 @@ import torch.utils.data as data
 
 
 # https://github.com/adambielski/siamese-triplet/blob/master/datasets.py
+# https://gombru.github.io/2019/04/03/ranking_loss
 
 class K136M_Soft(data.Dataset):
     
