@@ -6,24 +6,15 @@ import torch.utils.data as data
 # https://github.com/adambielski/siamese-triplet/blob/master/datasets.py
 # https://gombru.github.io/2019/04/03/ranking_loss
 
-class K136M_Soft(data.Dataset):
+class K136M_Base(data.Dataset):
     
-    def __init__(self, data, labels):
-        self.data = data
-        self.labels = labels
-
-
+    def __init__(self, ):
+        pass
+        
     def __getitem__(self, index):
-        """
-        Returns a tuple containing (seq, label)
-        """
-        return self.data[index], self.labels[index]
-    
+        pass
+
     def __len__(self):
-        return len(self.data)
-
-
-    def preprocess(self,):
         pass
 
 
