@@ -2,13 +2,13 @@
 
 Dataset: 
 
-- [K136M](https://userinterfaces.aalto.fi/136Mkeystrokes/)
+- [K136M](https://userinterfaces.aalto.fi/136Mkeystrokes/) [1]
 
 
 Model:
 
-1. TypeNet: reproducing the results of the paper [TypeNet: A Neural Network for Predicting Keystroke Dynamics](https://arxiv.org/abs/1805.08207)
-2. Our Model: TBD
+1. TypeNet: reproducing the results of the paper [TypeNet: A Neural Network for Predicting Keystroke Dynamics](https://arxiv.org/abs/1805.08207) [2]
+2. StrokeNet: 
 
 
 
