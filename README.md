@@ -7,7 +7,7 @@ Dataset:
 
 Model:
 1. TypeNet: reproducing the results of the paper [TypeNet: A Neural Network for Predicting Keystroke Dynamics](https://arxiv.org/abs/1805.08207) [2]
-2. Transformer-based: reproducting the results of the paper (https://arxiv.org/pdf/2207.07596.pdf) [3]
+2. Transformer-based: reproducing the results of the paper [Mobile Keystroke Biometrics Using Transformers.](https://arxiv.org/pdf/2207.07596.pdf) [3]
 
 
 Training setting:
