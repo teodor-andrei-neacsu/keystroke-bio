@@ -42,7 +42,8 @@ def session_to_features_typenet(session):
                                 rl = tstamp_next_rel - tstamp_rel
                                 # print("key: {}, hold: {}, inter: {}, press: {}, release: {}".format(key, hl, il, pl, rl))
                                 # transform to s
-                                typing_features.append([key, hl / 1000, il / 1000, pl / 1000, rl / 1000])
+                                # normalize keycodes javascript
+                                typing_features.append([key/255, hl / 1000, il / 1000, pl / 1000, rl / 1000])
                                 break
                         break
                 break
@@ -53,5 +54,11 @@ def session_to_features_our(session):
     Our approach to transform a session into features.
     
     """
+    pass
 
+
+def split_dataset():
+    """
+    Split the dataset into train and test set.
+    """
     pass
